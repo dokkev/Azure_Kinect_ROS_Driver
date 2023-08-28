@@ -57,13 +57,13 @@ Licensed under the MIT License.
     <arg name="rgb_topic"          value="/k4a/rgb_to_depth/image_rect" />
     <arg name="depth_topic"        value="/k4a/depth/image_rect" />
     <arg name="camera_info_topic"  value="/k4a/depth/camera_info" />
-    <arg name="approx_sync"        value="true" />
+    <arg name="approx_sync"        value="false" />
     <arg name="frame_id"           value="camera_base" />
     <arg name="args"               value="--delete_db_on_start --Odom/ResetCountdown 2" />
+    <arg name="publish_tf_odom"    default="false"/>
     <!-- <arg name="imu_topic"          value="/k4a/imu" /> -->
     <!-- <arg name="localization"       value="true"/> -->
     <!-- <arg name="odom_frame_id"      value="odom"/> -->
-    <remap from="/rtabmap/rtabmap/odom" to="odom" />
   </include>
 
 </launch>
