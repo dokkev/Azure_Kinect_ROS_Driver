@@ -63,6 +63,7 @@ Licensed under the MIT License.
     <!-- <arg name="imu_topic"          value="/k4a/imu" /> -->
     <!-- <arg name="localization"       value="true"/> -->
     <!-- <arg name="odom_frame_id"      value="odom"/> -->
+    <remap from="/rtabmap/rtabmap/odom" to="odom" />
   </include>
 
 </launch>
