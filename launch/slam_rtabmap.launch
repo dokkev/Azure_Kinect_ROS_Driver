@@ -60,7 +60,7 @@ Licensed under the MIT License.
     <arg name="approx_sync"        value="false" />
     <arg name="frame_id"           value="camera_base" />
     <arg name="args"               value="--delete_db_on_start --Odom/ResetCountdown 2" />
-    <arg name="publish_tf_odom"    default="false"/>
+    <arg name="publish_tf_odom"    default="true"/>
     <!-- <arg name="imu_topic"          value="/k4a/imu" /> -->
     <!-- <arg name="localization"       value="true"/> -->
     <!-- <arg name="odom_frame_id"      value="odom"/> -->
