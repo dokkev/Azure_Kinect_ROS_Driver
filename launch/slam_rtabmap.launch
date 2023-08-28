@@ -58,7 +58,7 @@ Licensed under the MIT License.
     <arg name="depth_topic"        value="/k4a/depth/image_rect" />
     <arg name="camera_info_topic"  value="/k4a/depth/camera_info" />
     <arg name="approx_sync"        value="true" />
-    <arg name="frame_id"           value="camera_base" />
+    <arg name="frame_id"           value="base_link" />
     <arg name="args"               value="--delete_db_on_start --Odom/ResetCountdown 2" />
     <arg name="publish_tf_odom"    default="true"/>
     <!-- <arg name="imu_topic"          value="/k4a/imu" /> -->
